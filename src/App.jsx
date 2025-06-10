@@ -1,3 +1,6 @@
+import {Ejercicio01} from './components/Ejercicio01'
+import {BotonGeneral} from './components/utils/BotonGeneral';
+import {ContenedorBotones} from './components/utils/ContenedorBotones'
 function App() {
   return (
     <>
@@ -9,6 +12,12 @@ function App() {
             </h1>
           </div>
         </div>
+
+      {/** Mando llamar componente externo */}
+      <Ejercicio01/>
+      <BotonGeneral/>
+
+      <ContenedorBotones/>
       </div>
     </>
   )
